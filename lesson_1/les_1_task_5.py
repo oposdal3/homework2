@@ -3,8 +3,8 @@ https://drive.google.com/file/d/1EmX43UNMNUofj4KMhxKnLgbQpWHJqreJ/view?usp=shari
 Пользователь вводит две буквы. Определить, на каких местах алфавита они стоят, и сколько между ними находится букв.
 """
 print("Введите две разные буквы которые нужно определить.")
-a = ord(input())
-b = ord(input())
+a = ord(input()) - 96
+b = ord(input()) - 96
 
 if a > b:
     c = a - b - 1
